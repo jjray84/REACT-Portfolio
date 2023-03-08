@@ -6,7 +6,6 @@ function Footer() {
     <div className="footer">
       <div className="socialMedia">
       </div>
-      <p> &copy; 2022 pedrotech.com</p>
     </div>
   );
 }

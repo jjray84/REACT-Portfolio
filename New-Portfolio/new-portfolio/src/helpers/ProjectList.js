@@ -9,12 +9,12 @@ export const ProjectList = [
     skills: "JavaScript,HTML,CSS",
   },
   {
-    name: "Ecommerce Website",
+    name: "Dynamic Schedular",
     image: dynamicSchedular,
     skills: "React,Node.js,MongoDB",
   },
   {
-    name: "Spotify Clone",
+    name: "Random Password Generator",
     image: PWgen,
     skills: "React,Node.js,MongoDB,SpotifyAPI",
   },

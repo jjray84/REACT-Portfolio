@@ -4,6 +4,11 @@
     font-family: "Arial", sans-serif;
     color: #3e497a;
   }
+
+  .photo {
+    width: 250px;
+    height: 250px;
+  }
   
   .about {
     width: 100%;
