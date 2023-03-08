@@ -1,14 +1,33 @@
-.contact h1{
+.home {
     width: 100%;
-    height: calc(100vh - 100px);
-    display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: column;
-  }
+    font-family: "Ariel", sans-serif;
+    color: #3e497a;
+}
+
+.contact {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 80px;
+  color: black;
+  text-align: center;
+}
 
 h1 {
-    margin-top: 50px;
-    color: #3e497a;
-    font-size: 35px;
+  color: black;
+  font-size: 80px;
+}
+
+.email h2 {
+  color: black;
+  font-size: 40px;
+}
+
+.GitHub h2 {
+  color: black;
+  font-size: 40px;
+}
+
+.LinkedIn h2 {
+  color: black;
+  font-size: 40px;
 }

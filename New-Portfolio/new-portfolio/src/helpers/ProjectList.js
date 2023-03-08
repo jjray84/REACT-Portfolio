@@ -6,16 +6,16 @@ export const ProjectList = [
   {
     name: "MyMedi",
     image: MyMedi,
-    skills: "JavaScript,HTML,CSS",
+    skills: "HTML, Bootstrap, JavaScript, SQL, HandleBars"
   },
   {
     name: "Dynamic Schedular",
     image: dynamicSchedular,
-    skills: "React,Node.js,MongoDB",
+    skills: "HTML, CSS, JavaScript"
   },
   {
     name: "Random Password Generator",
     image: PWgen,
-    skills: "React,Node.js,MongoDB,SpotifyAPI",
+    skills: "HTML, CSS, JavaScript"
   },
 ];
