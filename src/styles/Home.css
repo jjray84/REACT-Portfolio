@@ -50,6 +50,10 @@
   
   .skills h1 {
     color: #3e497a;
+    display: flex;
+    justify-content: center;
+    flex-direction: center;
+    align-items: center;
   }
   
   .skills .list {

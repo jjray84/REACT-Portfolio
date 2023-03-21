@@ -1,6 +1,9 @@
 import React from "react";
 import photo from '../../src/assets/headshot.jpg'
 import "../styles/Home.css";
+import { FaReact, FaHtml5, FaCss3, FaBootstrap, FaNodeJs } from 'react-icons/fa';
+import { SiJavascript, SiGraphql, SiMongodb } from 'react-icons/si';
+import { GrMysql } from 'react-icons/gr'
 
 function Home() {
   return (
@@ -18,15 +21,13 @@ function Home() {
           <li className="item">
             <h2> Front-End</h2>
             <span>
-              ReactJS, HTML, CSS, JavaScript,
-              BootStrap, StyledComponents
+              <FaReact /> ReactJS, <FaHtml5 /> HTML, <FaCss3 /> CSS, <SiJavascript /> JavaScript, <FaBootstrap /> BootStrap
             </span>
           </li>
           <li className="item">
             <h2>Back-End</h2>
             <span>
-              NodeJS, ExpressJS, GraphQL,
-              MySQL, MongoDB
+              <FaNodeJs /> NodeJS, <SiGraphql /> GraphQL, <GrMysql /> MySQL, <SiMongodb /> MongoDB
             </span>
           </li>
         </ol>
