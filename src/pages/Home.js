@@ -20,15 +20,15 @@ function Home() {
         <ol className="list">
           <li className="item">
             <h2> Front-End</h2>
-            <span>
-              <FaReact /> ReactJS, <FaHtml5 /> HTML, <FaCss3 /> CSS, <SiJavascript /> JavaScript, <FaBootstrap /> BootStrap
-            </span>
+            <h3>
+              <FaReact /> <FaHtml5 /> <FaCss3 /> <SiJavascript /> <FaBootstrap />
+            </h3>
           </li>
           <li className="item">
             <h2>Back-End</h2>
-            <span>
-              <FaNodeJs /> NodeJS, <SiGraphql /> GraphQL, <GrMysql /> MySQL, <SiMongodb /> MongoDB
-            </span>
+            <h3>
+              <FaNodeJs /> <SiGraphql /> <GrMysql /> <SiMongodb />
+            </h3>
           </li>
         </ol>
       </div>

@@ -2,6 +2,7 @@ import React from "react";
 import { FaGithubSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
+import { BsFillTelephoneOutboundFill, BsTelephoneOutboundFill } from "react-icons/bs";
 
 import "../styles/Contact.css";
 
@@ -17,7 +18,10 @@ function Contact() {
                 <h2><FaLinkedin /> <a href="https://www.linkedin.com/in/jon-ray-925a04174/"> LinkedIn </a></h2>
             </div>
             <div className="email">
-                <h2><FaEnvelope /> Email me at: jonathanjudsonray@gmail.com </h2>
+                <h2><FaEnvelope /> <a href="mailto:jonathanjudsonray@gmail.com"> Email </a></h2>
+            </div>
+            <div className="Phone">
+                <h2><BsTelephoneOutboundFill /> <a href="tel:678-886-7306"> Call Me</a></h2>
             </div>
         </div>
     </div>
