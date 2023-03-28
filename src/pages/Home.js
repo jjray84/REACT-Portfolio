@@ -12,7 +12,7 @@ function Home() {
       <img className="photo" src={photo} alt="headshot" />
         <h2> Hello! I am Jonathan Ray</h2>
         <div className="prompt">
-          <p>I am a junior developer with a passion for solving problems</p>
+          <p>I am a web developer with a passion for solving problems, and a recent graduate of the Georgia Tech Full Stack Boot Camp.</p>
         </div>
       </div>
       <div className="skills">

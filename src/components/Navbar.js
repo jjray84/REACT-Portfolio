@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "../styles/Navbar.css";
+import { HiArrowSmDown } from "react-icons/hi";
 
 function Navbar() {
   const [expandNavbar, setExpandNavbar] = useState(false);
@@ -18,8 +19,7 @@ function Navbar() {
           onClick={() => {
             setExpandNavbar((prev) => !prev);
           }}
-        >
-        </button>
+        ><HiArrowSmDown /></button>
       </div>
       <div className="links">
         <Link to="/"> Home </Link>

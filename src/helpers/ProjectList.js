@@ -16,7 +16,7 @@ export const ProjectList = [
   {
     name: "Dynamic Schedular",
     image: dynamicSchedular,
-    skills: "HTML, Bootstrap, JavaScript",
+    skills: "HTML, Bootstrap, JavaScript, Third Party API",
     description: "Assisting small businesses with scheduling challenges using JavaScript.",
     repo: "https://github.com/jjray84/Dynamic-Schedular"
   },
